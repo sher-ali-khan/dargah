@@ -1,0 +1,59 @@
+/*Selector {
+	property : value;
+}*/
+* {
+	text-align: right;
+}
+body{
+	background-image: url(Kaliyar.jpg);
+	background-size: cover ;
+	text-align: center;
+}
+
+h2+ p :hover{
+	color: red;
+	font-size : 24px;
+	background-color: #551800;
+	text-align: center;
+	border: 5px dashed rgba(198, 99, 118,1);
+	cursor: pointer;
+}
+
+p{
+	color:pink !important;
+}
+p{
+	color:green;
+}
+li{
+	list-style: none;
+	display: inline-block;
+	color:red;
+}
+.webtext:first-child{
+	border: 5px dashed forestgreen;
+}
+.active{
+	color:brown;
+}
+
+#div1{
+	background: rgba(0,0,255,0.2) ;
+}
+
+#div2{
+	background: rgba(255,0,0,0.2) ;
+}
+p{
+	text-transform: capitalize;
+	text-align: left;
+	line-height: 20px;
+	font-style: italic;
+	font-size: 80%;
+	font-weight: bold;
+	font-family: "Poiret One", sans-serif;
+}
+
+img{
+	float: left;
+}
